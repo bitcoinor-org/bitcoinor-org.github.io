@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://bitcoinor.org/sitemap.xml
