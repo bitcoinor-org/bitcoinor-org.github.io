@@ -5,6 +5,9 @@
     <loc>https://bitcoinor.org/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://bitcoinor.org/faq/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://bitcoinor.org/terms/</loc>
     <priority>0</priority>
   </url><url>
