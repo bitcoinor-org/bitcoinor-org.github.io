@@ -77,7 +77,7 @@
       <description>
 🔨重获自由&amp;主权的工具清单🔨🎸 人类凭借制造和使用工具，一步步走到“食物链顶端”。我们要仔细挑选我们的敌人，但我们更应该仔细的，是挑选我们的工具，工具会塑造我们心智能量，工具会影响我们的思维方式。
  金钱是人类发明的最伟大的自由工具之一。&amp;mdash;弗里德里希·奥古斯特·冯·哈耶克
-Money is one of the greatest instruments of freedom ever invented by man.&amp;mdash;Friedrich August von Hayek
+**Money is one of the greatest instruments of freedom ever invented by man.&amp;mdash;Friedrich August von Hayek
   🔥 比特币
  Samourai|比特币钱包，注重隐私 Bisq|去中心化比特币交易所 Ledger|安全的加密货币/资产硬件钱包  🔥 科学上网
  ExpressVPN|稳定，快速 Lantern|蓝灯，便捷易用的科学上网工具，每月有1GB免费流量 Tor|洋葱浏览器，用于访问暗网（深网）的浏览器  🔥 通讯
@@ -87,11 +87,60 @@ Money is one of the greatest instruments of freedom ever invented by man.&amp;md
     
     <item>
       <title></title>
+      <link>https://bitcoinor.org/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bitcoinor.org/history/</guid>
+      <description>
+📜比特币大事纪📜🎸 中本聪（Satoshi Nakamoto）绝对是科技宅们的终极偶像，他成功做到了崔健在《假行僧》里唱的：我要人们都看到我，但不知道我是谁。
+中本聪是君子，一个大写的人，一个脱离了低级趣味的人！他淡泊名利，执行力强，不出风头，默默为这个世界贡献自己的力量。培养孩子就要培养像中本聪这样的人。
+ 银鞍照白马，飒沓如流星。十步杀一人，千里不留行。事了拂衣去，深藏身与名。&amp;mdash;李白《侠客行》
+ ⏰ 内容持续更新
+ 时间：2008年   2008-08-18：bitcoin.org域名被注册。
+  2008-08-31：中本聪在metzdowd.com（密码朋克）网站的邮件列表中发表论文&amp;ndash;《比特币：一种点对点式的电子现金系统》（Bitcoin: A Peer-to-Peer Electronic Cash System），即：比特币白皮书。
+  时间：2009年   2009-01-03：中本聪在芬兰赫尔辛基的一个小型服务器上挖出比特币第一个区块——创世区块（Genesis Block），并获得了50个比特币的奖励，创始区块计入比特币公开账簿。
+注：比特币创世区块地址为：1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+  2009-01-12：中本聪在“区块170高度”向哈尔·芬尼（Hal Finney）发送了10个比特币。完成比特币历史上第一笔交易。
+  2009-12-16：比特币社区为比特币的开发工作创建了一个网络聊天室（IRC）。
+注：频道名称为：#bitcoin-dev，社区发布比特币0.2版本。
+  时间：2010年   2010-05-22：佛罗里达州的一名程序员Laszlo Hanyecz在bitcointalk论坛发帖（发帖时间为：2020-05-18），表示愿意用10,000（实际交易数量为：10,000.99BTC）个比特币购买两块披萨，并与一位名叫Jercos的网友达成了交易（比特币转账时间为：2010-05-22）。这是历史上，人类首次用比特币购买商品，比特币第一次被当成货币使用。比特币社区将这一天称为“比特币披萨节”。
+注：购买披萨的钱包地址为：1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+注：购买披萨的交易哈希为：a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d
+  2010-07-11：比特币被著名的新闻网站Slashdot报道，比特币社区发布比特币0.3版本，受新闻报道影响，比特币用户数量急速增长。
+  2010-07-17：第一个比特币平台由Jed McCaled创立，交易平台名称为：MT.Gox(门头沟)，办公地址位于日本东京都涩谷区。
+  2010-08-06：比特币协议被发现重大漏洞，即：比特币交易在被记录到“区块链”（block chain）之前没有经过完整验证。这导致比特币使用者可以绕过比特币的发行机制设定，制造出无上限的比特币。
+  2010-08-15：比特币重大漏洞被人恶意利用，通过一笔转账交易产生1.84亿的比特币，并将这些比特币转移到两个比特币地址。在不到一小时内，这笔异常交易就被比特币社区开发者发现，比特币社区紧急修复该重大漏洞，更新了新版比特币协议，并抹除了这笔恶意交易。
+  2010-12-12：中本聪在bitcointalk论坛上最后一次更新比特币协议，版本名称为bitcoin-0.3.19。
+注：中本聪在bitcointalk论坛的账号，在2014-11-29还更新过一次个人信息，只有简短的一个单词：nour.
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bitcoinor.org/quote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bitcoinor.org/quote/</guid>
+      <description>✨中本聪语录✨  🎸 中本聪（Satoshi Nakamoto）绝对是科技宅们的终极偶像，他成功做到了崔健在《假行僧》里唱的：我要人们都看到我，但不知道我是谁。
+中本聪是君子，一个大写的人，一个脱离了低级趣味的人！他淡泊名利，执行力强，不出风头，默默为这个世界贡献自己的力量。培养孩子就要培养像中本聪这样的人。
+(₿ ᴥ ₿)
+ “如果你不相信或无法理解，我没有时间来说服你，抱歉。”—中本聪
+  “If you don’t believe it or don’t get it, I don’t have the time to try to convince you, sorry.”— Satoshi Nakamoto
+ (₿ ᴥ ₿)
+ “我敢肯定，在20年内，（比特币的）交易量要么非常大，要么完全没有。”—中本聪
+  “I’m sure that in 20 years there will either be very large transaction volume or no volume.”— Satoshi Nakamoto
+ (₿ ᴥ ₿)
+ “传统法定货币的根本问题是，（法定货币）要想能发挥作用，必须要拥有（人们对它的）信任。中央银行必须要让人们相信它不会使货币贬值，但是法定货币的历史就是一部失信的历史。”—中本聪
+  “The root problem with conventional currency is all the trust that’s required to make it work.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://bitcoinor.org/term/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bitcoinor.org/term/</guid>
-      <description>🔥比特币常用术语&amp;概念🔥🎸 比特币是一种全新的货币体系，其创始人中本聪以及比特币广大的用户群体引入很多新术语&amp;amp;概念，来描述比特币的运转逻辑和工作方式。本文收录了比特币体系中常用的术语&amp;amp;概念，从而帮助你更好的理解比特币。
+      <description>🟣比特币常用术语&amp;概念🟣🎸 比特币是一种全新的货币体系，其创始人中本聪以及比特币广大的用户群体引入很多新术语&amp;amp;概念，来描述比特币的运转逻辑和工作方式。本文收录了比特币体系中常用的术语&amp;amp;概念，从而帮助你更好的理解比特币。
  💡 比特币地址
 &amp;mdash; 比特币地址类似银行账号，其他人可以通过你提供的比特币地址向你发送比特币。
 💡 聪
@@ -125,7 +174,7 @@ Money is one of the greatest instruments of freedom ever invented by man.&amp;md
       
       <guid>https://bitcoinor.org/website/</guid>
       <description>
-🔥比特币常用网站🔥     CoinMarketCap
+🌐比特币常用网站🌐     CoinMarketCap
  简介：查询各种加密货币/资产的排名、市值、价格，以及详细信息。 网址：coinmarketcap.com    BlockChair
  简介：区块链搜索和分析引擎，适用于比特币、狗狗币、以太坊、莱特币、Cardano、Stellar、EOS、Monero、Tezos、Dash、Zcash等各类数字货币，可以按照个性化需求，对区块、交易及其内容进行过滤和排序，还可以对区块链内容进行全文搜索。 网址：blockchair.com    Infinite Market Cap
  简介：对全球顶级资产进行市值排名，包括比特币和以太坊等加密货币，黄金和白银等贵金属，苹果和特斯拉等上市公司。 网址：8marketcap.com    FiatMarketCap
