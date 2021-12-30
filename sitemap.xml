@@ -17,10 +17,19 @@
     <loc>https://bitcoinor.org/history/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://bitcoinor.org/how-to-kill-bitcoin/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://bitcoinor.org/is-bitcoin-unstoppable-code/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://bitcoinor.org/quote/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://bitcoinor.org/term/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://bitcoinor.org/unpacking-bitcoin-social-contract/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://bitcoinor.org/website/</loc>
