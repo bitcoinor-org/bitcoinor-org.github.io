@@ -23,6 +23,9 @@
     <loc>https://bitcoinor.org/is-bitcoin-unstoppable-code/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://bitcoinor.org/privacy/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://bitcoinor.org/quote/</loc>
     <priority>0</priority>
   </url><url>
@@ -30,6 +33,9 @@
     <priority>0</priority>
   </url><url>
     <loc>https://bitcoinor.org/unpacking-bitcoin-social-contract/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://bitcoinor.org/wallet/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://bitcoinor.org/website/</loc>
