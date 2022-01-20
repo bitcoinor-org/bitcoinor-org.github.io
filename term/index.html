@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://bitcoinor.org/images/favicon.png" />
+<title></title>
+<meta name="title" content="" />
+<meta name="description" content="🟣比特币常用术语&概念🟣🎸 比特币是一种全新的货币体系，其创始人中本聪以及比特币广大的用户群体引入很多新术语&amp;概念，来描述比特币的运转逻辑和工作方式。本文收录了比特币体系中常用的术语&amp;概念，从而帮助你更好的理解比特币。
+ 💡 比特币地址
+&mdash; 比特币地址类似银行账号，其他人可以通过你提供的比特币地址向你发送比特币。
+💡 聪
+&mdash; 聪（英文：sats）是比特币的最小单位，100,000,000聪（一亿聪）等于1个比特币。这个单位通常在进行小额支付时使用。
+💡 区块
+&mdash; 如果将比特币看作一个账本，那么一个区块就可以形象的看作是这个账本中的其中一页，区块中包含被确认的比特币交易记录。在比特币网络中，平均每10分钟就会有一个新的区块被添加到比特币区块链中。
+💡 区块链
+&mdash; 在比特币体系中，区块链是一个按时间顺序排列的，记录比特币历史交易记录的公共账本，比特币区块链由所有比特币用户共享。
+💡 BTC
+&mdash; BTC是比特币（英文：bitcoin）的缩写/简称，BTC也常被看作是比特币的单位。1 BTC 就表示1个比特币。
+💡 交易确认
+&mdash; 交易确认（以下简称“确认”）是指比特币交易被比特币记账节点所确认。对于小额比特币交易，一个确认便可被视为是安全的；然而对于大额交易，一般认为六个及以上的确认被认为是安全的。每一个确认都会指数级地降低交易被撤销的风险。
+💡 双重支付
+&mdash; 如果一个不怀好意的用户试图将同一笔比特币同时支付给两个不同的收款人，这种行为就被称为双重支付。
+💡 哈希率
+&mdash; 哈希率是用来衡量比特币网络处理能力的测量单位。当比特币网络达到10Th/秒的哈希率时，就意味着它能够进行每秒10万亿次的计算。
+💡 挖矿
+&mdash; 挖矿就是比特币网络中各个记账节点争夺记账权的过程，成功获得记账权即代表挖矿成功，便可获得挖矿奖励。
+💡 点对点
+&mdash; 点对点是指，节点与节点间可直接进行通信，而不需要第三方节点/中继的支持。比特币的每个用户都可以传播其他用户的交易信息，不需要银行或者其他第三方机构的参与。
+💡 私钥
+&mdash; 私钥可以类比为传统的银行账户密码，如果你使用的是软件钱包，你的私钥就存储在你的计算机内；如果使用的是在线钱包，你的私钥就存储在远程服务器上。通过拥有私钥，你就拥有了私钥中的比特币。
+💡 钱包
+&mdash; 比特币钱包最重要的作用是管理私钥，以及与私钥相对应的比特币地址。此外，钱包还提供一系列的功能，包括创建比特币地址、显示余额、转账、收款等功能，从而方便你与其他比特币用户进行交互。" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="🟣比特币常用术语&概念🟣🎸 比特币是一种全新的货币体系，其创始人中本聪以及比特币广大的用户群体引入很多新术语&amp;概念，来描述比特币的运转逻辑和工作方式。本文收录了比特币体系中常用的术语&amp;概念，从而帮助你更好的理解比特币。
+ 💡 比特币地址
+&mdash; 比特币地址类似银行账号，其他人可以通过你提供的比特币地址向你发送比特币。
+💡 聪
+&mdash; 聪（英文：sats）是比特币的最小单位，100,000,000聪（一亿聪）等于1个比特币。这个单位通常在进行小额支付时使用。
+💡 区块
+&mdash; 如果将比特币看作一个账本，那么一个区块就可以形象的看作是这个账本中的其中一页，区块中包含被确认的比特币交易记录。在比特币网络中，平均每10分钟就会有一个新的区块被添加到比特币区块链中。
+💡 区块链
+&mdash; 在比特币体系中，区块链是一个按时间顺序排列的，记录比特币历史交易记录的公共账本，比特币区块链由所有比特币用户共享。
+💡 BTC
+&mdash; BTC是比特币（英文：bitcoin）的缩写/简称，BTC也常被看作是比特币的单位。1 BTC 就表示1个比特币。
+💡 交易确认
+&mdash; 交易确认（以下简称“确认”）是指比特币交易被比特币记账节点所确认。对于小额比特币交易，一个确认便可被视为是安全的；然而对于大额交易，一般认为六个及以上的确认被认为是安全的。每一个确认都会指数级地降低交易被撤销的风险。
+💡 双重支付
+&mdash; 如果一个不怀好意的用户试图将同一笔比特币同时支付给两个不同的收款人，这种行为就被称为双重支付。
+💡 哈希率
+&mdash; 哈希率是用来衡量比特币网络处理能力的测量单位。当比特币网络达到10Th/秒的哈希率时，就意味着它能够进行每秒10万亿次的计算。
+💡 挖矿
+&mdash; 挖矿就是比特币网络中各个记账节点争夺记账权的过程，成功获得记账权即代表挖矿成功，便可获得挖矿奖励。
+💡 点对点
+&mdash; 点对点是指，节点与节点间可直接进行通信，而不需要第三方节点/中继的支持。比特币的每个用户都可以传播其他用户的交易信息，不需要银行或者其他第三方机构的参与。
+💡 私钥
+&mdash; 私钥可以类比为传统的银行账户密码，如果你使用的是软件钱包，你的私钥就存储在你的计算机内；如果使用的是在线钱包，你的私钥就存储在远程服务器上。通过拥有私钥，你就拥有了私钥中的比特币。
+💡 钱包
+&mdash; 比特币钱包最重要的作用是管理私钥，以及与私钥相对应的比特币地址。此外，钱包还提供一系列的功能，包括创建比特币地址、显示余额、转账、收款等功能，从而方便你与其他比特币用户进行交互。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bitcoinor.org/term/" /><meta property="og:image" content="https://bitcoinor.org/images/share.jpg"/><meta property="article:section" content="" />
+
+<meta property="og:site_name" content="杨靖武" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://bitcoinor.org/images/share.jpg"/>
+
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="🟣比特币常用术语&概念🟣🎸 比特币是一种全新的货币体系，其创始人中本聪以及比特币广大的用户群体引入很多新术语&amp;概念，来描述比特币的运转逻辑和工作方式。本文收录了比特币体系中常用的术语&amp;概念，从而帮助你更好的理解比特币。
+ 💡 比特币地址
+&mdash; 比特币地址类似银行账号，其他人可以通过你提供的比特币地址向你发送比特币。
+💡 聪
+&mdash; 聪（英文：sats）是比特币的最小单位，100,000,000聪（一亿聪）等于1个比特币。这个单位通常在进行小额支付时使用。
+💡 区块
+&mdash; 如果将比特币看作一个账本，那么一个区块就可以形象的看作是这个账本中的其中一页，区块中包含被确认的比特币交易记录。在比特币网络中，平均每10分钟就会有一个新的区块被添加到比特币区块链中。
+💡 区块链
+&mdash; 在比特币体系中，区块链是一个按时间顺序排列的，记录比特币历史交易记录的公共账本，比特币区块链由所有比特币用户共享。
+💡 BTC
+&mdash; BTC是比特币（英文：bitcoin）的缩写/简称，BTC也常被看作是比特币的单位。1 BTC 就表示1个比特币。
+💡 交易确认
+&mdash; 交易确认（以下简称“确认”）是指比特币交易被比特币记账节点所确认。对于小额比特币交易，一个确认便可被视为是安全的；然而对于大额交易，一般认为六个及以上的确认被认为是安全的。每一个确认都会指数级地降低交易被撤销的风险。
+💡 双重支付
+&mdash; 如果一个不怀好意的用户试图将同一笔比特币同时支付给两个不同的收款人，这种行为就被称为双重支付。
+💡 哈希率
+&mdash; 哈希率是用来衡量比特币网络处理能力的测量单位。当比特币网络达到10Th/秒的哈希率时，就意味着它能够进行每秒10万亿次的计算。
+💡 挖矿
+&mdash; 挖矿就是比特币网络中各个记账节点争夺记账权的过程，成功获得记账权即代表挖矿成功，便可获得挖矿奖励。
+💡 点对点
+&mdash; 点对点是指，节点与节点间可直接进行通信，而不需要第三方节点/中继的支持。比特币的每个用户都可以传播其他用户的交易信息，不需要银行或者其他第三方机构的参与。
+💡 私钥
+&mdash; 私钥可以类比为传统的银行账户密码，如果你使用的是软件钱包，你的私钥就存储在你的计算机内；如果使用的是在线钱包，你的私钥就存储在远程服务器上。通过拥有私钥，你就拥有了私钥中的比特币。
+💡 钱包
+&mdash; 比特币钱包最重要的作用是管理私钥，以及与私钥相对应的比特币地址。此外，钱包还提供一系列的功能，包括创建比特币地址、显示余额、转账、收款等功能，从而方便你与其他比特币用户进行交互。"/>
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="🟣比特币常用术语&概念🟣🎸 比特币是一种全新的货币体系，其创始人中本聪以及比特币广大的用户群体引入很多新术语&amp;概念，来描述比特币的运转逻辑和工作方式。本文收录了比特币体系中常用的术语&amp;概念，从而帮助你更好的理解比特币。
+ 💡 比特币地址
+&mdash; 比特币地址类似银行账号，其他人可以通过你提供的比特币地址向你发送比特币。
+💡 聪
+&mdash; 聪（英文：sats）是比特币的最小单位，100,000,000聪（一亿聪）等于1个比特币。这个单位通常在进行小额支付时使用。
+💡 区块
+&mdash; 如果将比特币看作一个账本，那么一个区块就可以形象的看作是这个账本中的其中一页，区块中包含被确认的比特币交易记录。在比特币网络中，平均每10分钟就会有一个新的区块被添加到比特币区块链中。
+💡 区块链
+&mdash; 在比特币体系中，区块链是一个按时间顺序排列的，记录比特币历史交易记录的公共账本，比特币区块链由所有比特币用户共享。
+💡 BTC
+&mdash; BTC是比特币（英文：bitcoin）的缩写/简称，BTC也常被看作是比特币的单位。1 BTC 就表示1个比特币。
+💡 交易确认
+&mdash; 交易确认（以下简称“确认”）是指比特币交易被比特币记账节点所确认。对于小额比特币交易，一个确认便可被视为是安全的；然而对于大额交易，一般认为六个及以上的确认被认为是安全的。每一个确认都会指数级地降低交易被撤销的风险。
+💡 双重支付
+&mdash; 如果一个不怀好意的用户试图将同一笔比特币同时支付给两个不同的收款人，这种行为就被称为双重支付。
+💡 哈希率
+&mdash; 哈希率是用来衡量比特币网络处理能力的测量单位。当比特币网络达到10Th/秒的哈希率时，就意味着它能够进行每秒10万亿次的计算。
+💡 挖矿
+&mdash; 挖矿就是比特币网络中各个记账节点争夺记账权的过程，成功获得记账权即代表挖矿成功，便可获得挖矿奖励。
+💡 点对点
+&mdash; 点对点是指，节点与节点间可直接进行通信，而不需要第三方节点/中继的支持。比特币的每个用户都可以传播其他用户的交易信息，不需要银行或者其他第三方机构的参与。
+💡 私钥
+&mdash; 私钥可以类比为传统的银行账户密码，如果你使用的是软件钱包，你的私钥就存储在你的计算机内；如果使用的是在线钱包，你的私钥就存储在远程服务器上。通过拥有私钥，你就拥有了私钥中的比特币。
+💡 钱包
+&mdash; 比特币钱包最重要的作用是管理私钥，以及与私钥相对应的比特币地址。此外，钱包还提供一系列的功能，包括创建比特币地址、显示余额、转账、收款等功能，从而方便你与其他比特币用户进行交互。">
+
+<meta itemprop="wordCount" content="53"><meta itemprop="image" content="https://bitcoinor.org/images/share.jpg"/>
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2></h2>
+</a>
+<nav><a href="/"></a>
+
+
+<a href="/blog"></a>
+
+</nav>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9Z0FSGD1M9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9Z0FSGD1M9');
+</script></header>
+  <main>
+
+<content>
+  <p><a href="https://bitcoinor.org"><img src="/images/bitcoin-home.png" alt="cc"></a></p>
+<font size=5>
+<center>🟣<b>比特币常用术语&概念</b>🟣</center>
+</font>
+<p>🎸 比特币是一种全新的货币体系，其创始人中本聪以及比特币广大的用户群体引入很多新术语&amp;概念，来描述比特币的运转逻辑和工作方式。本文收录了比特币体系中常用的术语&amp;概念，从而帮助你更好的理解比特币。</p>
+<br>
+<hr>
+<br>
+<p>💡 <strong>比特币地址</strong></p>
+<p>&mdash; 比特币地址类似银行账号，其他人可以通过你提供的比特币地址向你发送比特币。</p>
+<p>💡 <strong>聪</strong></p>
+<p>&mdash; 聪（英文：sats）是比特币的最小单位，100,000,000聪（一亿聪）等于1个比特币。这个单位通常在进行小额支付时使用。</p>
+<p>💡 <strong>区块</strong></p>
+<p>&mdash; 如果将比特币看作一个账本，那么一个区块就可以形象的看作是这个账本中的其中一页，区块中包含被确认的比特币交易记录。在比特币网络中，平均每10分钟就会有一个新的区块被添加到比特币区块链中。</p>
+<p>💡 <strong>区块链</strong></p>
+<p>&mdash; 在比特币体系中，区块链是一个按时间顺序排列的，记录比特币历史交易记录的公共账本，比特币区块链由所有比特币用户共享。</p>
+<p>💡 <strong>BTC</strong></p>
+<p>&mdash; BTC是比特币（英文：bitcoin）的缩写/简称，BTC也常被看作是比特币的单位。1 BTC 就表示1个比特币。</p>
+<p>💡 <strong>交易确认</strong></p>
+<p>&mdash; 交易确认（以下简称“确认”）是指比特币交易被比特币记账节点所确认。对于小额比特币交易，一个确认便可被视为是安全的；然而对于大额交易，一般认为六个及以上的确认被认为是安全的。每一个确认都会指数级地降低交易被撤销的风险。</p>
+<p>💡 <strong>双重支付</strong></p>
+<p>&mdash; 如果一个不怀好意的用户试图将同一笔比特币同时支付给两个不同的收款人，这种行为就被称为双重支付。</p>
+<p>💡 <strong>哈希率</strong></p>
+<p>&mdash; 哈希率是用来衡量比特币网络处理能力的测量单位。当比特币网络达到10Th/秒的哈希率时，就意味着它能够进行每秒10万亿次的计算。</p>
+<p>💡 <strong>挖矿</strong></p>
+<p>&mdash; 挖矿就是比特币网络中各个记账节点争夺记账权的过程，成功获得记账权即代表挖矿成功，便可获得挖矿奖励。</p>
+<p>💡 <strong>点对点</strong></p>
+<p>&mdash; 点对点是指，节点与节点间可直接进行通信，而不需要第三方节点/中继的支持。比特币的每个用户都可以传播其他用户的交易信息，不需要银行或者其他第三方机构的参与。</p>
+<p>💡 <strong>私钥</strong></p>
+<p>&mdash; 私钥可以类比为传统的银行账户密码，如果你使用的是软件钱包，你的私钥就存储在你的计算机内；如果使用的是在线钱包，你的私钥就存储在远程服务器上。通过拥有私钥，你就拥有了私钥中的比特币。</p>
+<p>💡 <strong>钱包</strong></p>
+<p>&mdash; 比特币钱包最重要的作用是管理私钥，以及与私钥相对应的比特币地址。此外，钱包还提供一系列的功能，包括创建比特币地址、显示余额、转账、收款等功能，从而方便你与其他比特币用户进行交互。</p>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Powered By <a href="https://reardonyang.com/">💖ReardonYang</a>
+</footer>
+
+    
+</body>
+
+</html>
